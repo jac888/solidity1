@@ -13,7 +13,10 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "truffle-hdwallet-provider": "0.0.6"
+    "dotenv": "^5.0.0",
+    "ethereumjs-wallet": "^0.6.0",
+    "ganache-cli": "^6.1.6",
+    "truffle-hdwallet-provider": "0.0.5",
+    "truffle-hdwallet-provider-privkey": "^0.3.0"
   }
 }
