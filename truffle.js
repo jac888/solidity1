@@ -1,7 +1,7 @@
 require("dotenv").config();
 const HDWalletProvider = require("truffle-hdwallet-provider-privkey");
 const hdwallet = require("truffle-hdwallet-provider");
-const privateKeys = [process.env.PKEY]; // private keys
+const privateKeys = [process.env.PKEY];
 module.exports = {
   networks: {
     rinkeby: {
@@ -11,7 +11,7 @@ module.exports = {
           `https://rinkeby.infura.io/${process.env.INFURA_API_KEY}`
         );
       },
-      gas: 6712388,
+      gas: 5543500,
       network_id: 4,
       from: "0x92357843f46d738b386f1fbed57664ee62f353f5"
     }
